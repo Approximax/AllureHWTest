@@ -24,7 +24,7 @@ public class AllureTest {
 
         open(link);
         search.click();
-        search.setValue(testRepo).pressEnter();
+        $("#query-builder-test").setValue(testRepo).pressEnter();
 
         $(By.linkText(testRepo)).click();
         issues.click();

@@ -33,9 +33,9 @@ compileTestJava {
 
 dependencies {
     testImplementation(
-            'org.junit.jupiter:junit-jupiter-api:5.9.0',
-            'com.codeborne:selenide:6.7.2',
-            'io.qameta.allure:allure-selenide:2.19.0'
+            'org.junit.jupiter:junit-jupiter:5.10.2',
+            'com.codeborne:selenide:7.1.0',
+            'io.qameta.allure:allure-selenide:2.25.0'
     )
 
     testRuntimeOnly('org.junit.jupiter:junit-jupiter-engine:5.9.0')
